@@ -6,5 +6,5 @@ target 'HelloDelegateProxy' do
   use_frameworks!
 
   # Pods for HelloDelegateProxy
-  pod 'DelegateProxy', :path => 'DelegateProxy'
+  pod 'DelegateProxy', :git => 'git@github.com:austinzmchen/DelegateProxy.git', :branch => 'release/ACCustom1.1'
 end
