@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        scrollView.delegate = self // methods methods will be called
+        scrollView.delegate = self // methods will be called
         scrollView.delegateProxy.receive(selector: #selector(UIScrollViewDelegate.scrollViewWillBeginDragging(_:))) { args in
             print("ac")
         }
